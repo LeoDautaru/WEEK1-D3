@@ -1,19 +1,42 @@
-body{
-   margin: 0;
-   padding: 0;
+body {
+    margin: 0;
+    display: block;
+    text-align: center;
 }
 
-.logo{
-    display: flex;
-    justify-content: center;
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
 }
-.intro{
-    display: flex;
-    justify-content: center;
+
+.logo {
+    
 }
-h1{
-    text-align: center;
+
+.intro {
+
 }
-p{
-    text-align: center;
+
+.image figcaption {
+    padding-top: 5px;
+    color: gray;
+}
+
+.logo hr {
+    color: yellow;
+}
+
+.container {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+footer {
+    width: 45%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
 }
